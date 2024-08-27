@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box vs drop shadow</title>
+  <style>
+    .img1{
+        box-shadow: 0px 0px 12px grey;
+      }
+    .img2{
+        filter: drop-shadow(0px 0px 12px grey);
+      }
+  </style>
+</head>
+<body>
+  <img class="img1" src="https://pbs.twimg.com/media/GMW6WFIagAAclnP?format=png&name=large">
+  <img class="img2" src="https://pbs.twimg.com/media/GMW6WFIagAAclnP?format=png&name=large">
+</body>
+</html>
